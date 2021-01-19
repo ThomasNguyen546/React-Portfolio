@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  BrowserRouter,
+  HashRouter,
   Switch,
   Route
 } from "react-router-dom";
@@ -14,7 +14,7 @@ import Resume from './components/Resume';
 
 function App() { 
   return (
-    <BrowserRouter>
+    <HashRouter>
     <div id="wrapper">
       <Header></Header>
      <Switch>
@@ -26,7 +26,7 @@ function App() {
      </Switch>
      <Footer></Footer>
     </div>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
