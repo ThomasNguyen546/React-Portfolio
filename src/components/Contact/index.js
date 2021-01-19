@@ -8,14 +8,14 @@ function Contact() {
 
             <div class="p-2 text-center overcast">
 
-                <p><a class="contactInfo" href="https://github.com/slothings">GitHub</a></p>
+                <p><a class="contactInfo" href="https://github.com/thomasnguyen546">GitHub</a></p>
                 <br></br>
                 <a href="https://github.com/thomasnguyen546" target="_blank" rel="noopener noreferrer">
                     <img src={githubImage} alt="github-logo" />
                 </a>
                 <br></br>
                 <br></br>
-                <p><a class="contactInfo" href="https://linkedin.com/in/sethmartineau">LinkedIn</a></p>
+                <p><a class="contactInfo" href="https://www.linkedin.com/in/thomasnguyen546">LinkedIn</a></p>
                 <br></br>
                 <a href="https://www.linkedin.com/in/thomasnguyen546" target="_blank" rel="noopener noreferrer">
                     <img src={linkedinImage} alt="linkedIn-logo" />
