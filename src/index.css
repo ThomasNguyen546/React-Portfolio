@@ -227,7 +227,7 @@ footer ul li {
 .resume-text {
   font-size: 75px;
   text-align: center;
-  color: white;
+  color: black;
   text-decoration: underline;
 }
 
@@ -238,9 +238,21 @@ footer ul li {
 
 .contactInfo {
   font-size: 25px;
+  color: black;
 }
 
 .emailInfo {
   font-size: 30px;
   color: black;
+}
+
+.contact-container {
+  margin: 80px auto;
+  width: 80%;
+  background-color: rgba(125, 201, 245, 0.8);
+  padding: 40px;
+  background-image: url('./assets/images/contact.png');
+  height: auto;
+  text-align: center;
+  background-size: 1100px 450px;
 }

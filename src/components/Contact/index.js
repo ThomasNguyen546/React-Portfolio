@@ -4,7 +4,7 @@ import linkedinImage from "../../assets/images/linkedin.png"
 
 function Contact() {
     return (
-        <div className="resume-container">
+        <div className="contact-container">
 
             <div class="p-2 text-center overcast">
 
