@@ -14,19 +14,21 @@ import Resume from './components/Resume';
 
 function App() { 
   return (
+    <div>
     <HashRouter>
     <div id="wrapper">
       <Header></Header>
      <Switch>
             <Route exact={true} path="/" component={About} />
-            <Route path="/about" component={About} />
-            <Route path="/portfolio" component={Portfolio} />
-            <Route path="/contact" component={Contact} />
-            <Route path="/resume" component={Resume} />
+            <Route exact path="/about" component={About} />
+            <Route exact path="/portfolio" component={Portfolio} />
+            <Route exact path="/contact" component={Contact} />
+            <Route exact path="/resume" component={Resume} />
      </Switch>
      <Footer></Footer>
     </div>
     </HashRouter>
+    </div>
   )
 }
 
