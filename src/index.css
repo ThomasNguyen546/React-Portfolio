@@ -1,13 +1,246 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background-color: rgba(195, 233, 255, 0.8);
+  background-size: 100%;
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  height: 100%;
+  position: relative;
+
+}
+
+#wrapper {
+  font-family: 'Covered By Your Grace';
+  min-height: 100vh; /* will cover the 100% of viewport */
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 100px; /* height of your footer */
+ }
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color:#FFE4C4;
+}
+
+/*-- Header --*/
+#header {
+  background-color: rgba(125, 201, 245, 0.8);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 150px;
+}
+
+.header {
+  opacity: .8;
+}
+
+header .header-name a {
+  font-size: 50px;
+  color: white;
+  text-align: right;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  position: relative;
+  padding: 0 10px 0 30px;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  margin: 30px;
+  font-weight: lighter;
+  font-size: 16px;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  border-bottom: 3px solid;
+  cursor: pointer;
+}
+
+.page-container {
+  margin: 80px auto;
+  width: 80%;
+  background-color: rgba(125, 201, 245, 0.8);
+  padding: 40px;
+}
+
+.section-title {
+  font-family: 'Covered By Your Grace';
+  font-size: 30px;
+  color: white;
+  padding-bottom: 20px;
+}
+
+#about-text {
+  font-size: 20px;
+}
+
+#about-header {
+  text-align: center;
+}
+
+.profile-img {
+  border-radius: 100px;
+}
+
+/* Projects Page Styles */
+
+#project-grid div {
+  border: solid 1px rgba(125, 201, 245, 0.8);
+  padding: 2px;
+  display: flex;
+}
+
+#project-container {
+  margin: 40px;
+}
+
+#project-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2vw;
+  padding: 40px 0;
+}
+
+#project-grid div .project-info {
+  background-color:  rgba(181, 222, 245, 0.8);
+  width: 120px;
+  margin: 0 0 0px 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#project-header {
+  background-color:  rgba(125, 201, 245, 0.8);
+  padding: 20px;
+}
+
+.project-title {
+  font-size: 30px;
+  color: black;
+}
+
+.grid-item {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 98% 98%;
+  /* opacity: .8; */
+  height: 19.5vw;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 10px 0;
+}
+
+label, .error-text {
+  font-size: 30px;
+}
+
+.btn {
+  font-size: 30px;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: white;
+  color: #DEB887;
+  border-radius: 5px;
+}
+
+.resume-title {
+  font-size: 25px;
+  text-decoration: underline;
+  padding: 20px 0;
+}
+
+#resume p, li {
+  padding: 5px;
+  font-size: 18px;
+}
+
+footer {
+  background-color: rgba(125, 201, 245, 0.8);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer ul {
+  display: flex;
+  font-size: 1.5vw;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 10px;
+  text-align: center;
+}
+
+footer ul li {
+  margin: 20px;
+}
+
+.social-links{
+  text-align: center;
+}
+
+.github {
+  color: black;
+}
+
+.projectName {
+  color: black;
+}
+
+/* Resume */
+.resume-container {
+  margin: 80px auto;
+  width: 80%;
+  background-color: rgba(125, 201, 245, 0.8);
+  padding: 40px;
+  background-image: url('./assets/images/ResumeGraphic.png');
+  height: auto;
+  text-align: center;
+}
+
+.resume-text {
+  font-size: 75px;
+  text-align: center;
+  color: white;
+  text-decoration: underline;
+}
+
+.profImg {
+  border-radius: 20px;
+  margin-top: 50px;
+}
+
+.contactInfo {
+  font-size: 25px;
+}
+
+.emailInfo {
+  font-size: 30px;
+  color: black;
 }
