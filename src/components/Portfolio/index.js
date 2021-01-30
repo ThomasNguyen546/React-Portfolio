@@ -6,11 +6,21 @@ import img2 from '../../assets/images/HolidayPlanner.png';
 import img3 from '../../assets/images/BudgetTracker.png';
 import img4 from '../../assets/images/NoteTaker.png';
 import img5 from '../../assets/images/PizzaHunt.png';
-import img6 from '../../assets/images/ZooKeepr.png';
+import img6 from '../../assets/images/FortressOfFandom.png';
+
 
 function Portfolio () {
 
   const projects = [
+    {
+      id: 6,
+      name: 'Fortress of Fandom',
+      liveUrl: 'https://immense-mesa-76865.herokuapp.com/',
+      gitUrl: 'https://github.com/ThomasNguyen546/fortress-of-fandom',
+      style: {
+        backgroundImage: "url( " + img6 + ")"
+      }
+    },
     {
       id: 1,
       name: 'Recipe Roundup',
@@ -54,15 +64,6 @@ function Portfolio () {
       gitUrl: 'https://github.com/ThomasNguyen546/Pizza-Hunt',
       style: {
         backgroundImage: "url( " + img5 + ")",
-      }
-    },
-    {
-      id: 6,
-      name: 'ZooKeepr',
-      liveUrl: 'https://sleepy-tor-57425.herokuapp.com/',
-      gitUrl: 'https://github.com/ThomasNguyen546/Zookeepr',
-      style: {
-        backgroundImage: "url( " + img6 + ")"
       }
     }
   ];
