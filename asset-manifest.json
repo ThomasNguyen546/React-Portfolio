@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.a497a019.chunk.css",
-    "main.js": "/React-Portfolio/static/js/main.f3b8fa5f.chunk.js",
-    "main.js.map": "/React-Portfolio/static/js/main.f3b8fa5f.chunk.js.map",
+    "main.js": "/React-Portfolio/static/js/main.55f22e4b.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.55f22e4b.chunk.js.map",
     "runtime-main.js": "/React-Portfolio/static/js/runtime-main.09f12d8c.js",
     "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.09f12d8c.js.map",
     "static/js/2.2f171d08.chunk.js": "/React-Portfolio/static/js/2.2f171d08.chunk.js",
@@ -13,19 +13,19 @@
     "static/css/main.a497a019.chunk.css.map": "/React-Portfolio/static/css/main.a497a019.chunk.css.map",
     "static/js/2.2f171d08.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.2f171d08.chunk.js.LICENSE.txt",
     "static/media/BudgetTracker.5ce1d7d6.png": "/React-Portfolio/static/media/BudgetTracker.5ce1d7d6.png",
+    "static/media/FortressOfFandom.9f3b46f8.png": "/React-Portfolio/static/media/FortressOfFandom.9f3b46f8.png",
     "static/media/HolidayPlanner.4f5f8cce.png": "/React-Portfolio/static/media/HolidayPlanner.4f5f8cce.png",
     "static/media/NoteTaker.c8155b45.png": "/React-Portfolio/static/media/NoteTaker.c8155b45.png",
     "static/media/PizzaHunt.4f4ff36d.png": "/React-Portfolio/static/media/PizzaHunt.4f4ff36d.png",
     "static/media/ProfilePicture.467d6e83.JPG": "/React-Portfolio/static/media/ProfilePicture.467d6e83.JPG",
     "static/media/RecipeRoundup.7e2775a7.png": "/React-Portfolio/static/media/RecipeRoundup.7e2775a7.png",
     "static/media/Resume.8dc99684.pdf": "/React-Portfolio/static/media/Resume.8dc99684.pdf",
-    "static/media/index.css": "/React-Portfolio/static/media/contact.7bb076d8.png",
-    "static/media/ZooKeepr.d410e7bf.png": "/React-Portfolio/static/media/ZooKeepr.d410e7bf.png"
+    "static/media/index.css": "/React-Portfolio/static/media/contact.7bb076d8.png"
   },
   "entrypoints": [
     "static/js/runtime-main.09f12d8c.js",
     "static/js/2.2f171d08.chunk.js",
     "static/css/main.a497a019.chunk.css",
-    "static/js/main.f3b8fa5f.chunk.js"
+    "static/js/main.55f22e4b.chunk.js"
   ]
 }
